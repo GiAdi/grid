@@ -7,7 +7,7 @@ const Home = () => {
             <Row>
                 <Col lg={{ span: 8, order: 'first' }} xs={{ span: 12, order: 'last' }}>
                     <Container >
-                        <Navbar variant="dark" style={{ padding: '5rem'}} >
+                        <Navbar variant="dark" style={{ padding: '5rem', paddingTop:'1rem'}} >
                                 <Row style={{width:'100%'}} className='justify-content-between'> 
                                     <Col xs='auto'>
                                         <Navbar.Brand href="#home" style={{fontSize:'2.5rem'}}>
@@ -53,53 +53,63 @@ const Home = () => {
                 <Col lg={{ order: 'last' }} xs={{ order: 'first' }}>
                     <Container style={{display:'relative'}}>
                         <Row>
-                            {/* <Col style={{position:'relative', bottom:'12rem'}}> */}
-                                <Col>
-                                    <Row style={{ margin: '0.5rem 0px', position:'relative', bottom:'12rem' }}>
+                            <Col style={{position:'relative', bottom:'8rem'}}>
+                                {/* <Col> */}
+                                    <Row style={{ margin: '0.5rem 0px'}}>
+                                    {/* <Row style={{ margin: '0.5rem 0px', position:'relative', bottom:'12rem' }}> */}
                                         <Col className='d-flex align-items-center'>a
                                             <Image fluid src='./1.png' style={{ borderRadius: '45%/25%' }} />
                                         </Col>
                                     </Row>
-                                    <Row style={{ margin: '0.5rem 0px', position:'relative', bottom:'12rem' }}>
+                                    <Row style={{ margin: '0.5rem 0px' }}>
+                                    {/* <Row style={{ margin: '0.5rem 0px', position:'relative', bottom:'12rem' }}> */}
                                         <Col className='d-flex align-items-center'>
                                             <Image fluid src='./2.png' style={{ borderRadius: '45%/25%' }} />
                                         </Col>
                                     </Row>
-                                    <Row style={{ margin: '0.5rem 0px', position:'relative', bottom:'12rem' }}>
+                                    <Row style={{ margin: '0.5rem 0px' }}>
+                                    {/* <Row style={{ margin: '0.5rem 0px', position:'relative', bottom:'12rem' }}> */}
                                         <Col className='d-flex align-items-center'>
                                             <Image fluid src='./3.png' style={{ borderRadius: '45%/25%' }} />
                                         </Col>
                                     </Row>
                             </Col>
-                            {/* <Col style={{position:'relative', bottom:'1rem'}}> */}
-                            <Col>
-                                    <Row style={{ margin: '0.5rem 0px', position:'relative', bottom:'1rem' }}>
+                            <Col style={{position:'relative', bottom:'1rem'}}>
+                            {/* <Col> */}
+                                    <Row style={{ margin: '0.5rem 0px' }}>
+                                    {/* <Row style={{ margin: '0.5rem 0px', position:'relative', bottom:'1rem' }}> */}
                                         <Col className='d-flex align-items-center'>
                                             <Image fluid src='./4.png' style={{ borderRadius: '45%/25%' }} />
                                         </Col>
                                     </Row>
-                                    <Row style={{ margin: '0.5rem 0px', position:'relative', bottom:'1rem' }}>
+                                    <Row style={{ margin: '0.5rem 0px' }}>
+                                    {/* <Row style={{ margin: '0.5rem 0px', position:'relative', bottom:'1rem' }}> */}
                                         <Col className='d-flex align-items-center'>
                                             <Image fluid src='./5.png' style={{ borderRadius: '45%/25%' }} />
                                         </Col>
                                     </Row>
-                                    <Row style={{ margin: '0.5rem 0px', position:'relative', bottom:'1rem' }}>
+                                    <Row style={{ margin: '0.5rem 0px' }}>
+                                    {/* <Row style={{ margin: '0.5rem 0px', position:'relative', bottom:'1rem' }}> */}
                                         <Col className='d-flex align-items-center'>
                                             <Image fluid src='./6.png' style={{ borderRadius: '45%/25%' }} />
                                         </Col>
                                     </Row>
                             </Col>
-                            {/* <Col style={{position:'relative', top:'14rem'}}> */}
-                            <Col>
+                            <Col style={{position:'relative', top:'8rem'}}>
+                            {/* <Col> */}
                                     <Row>
-                                        <Col style={{color:'white'}}>a</Col>
+                                        <Col style={{color:'white', position:'relative', top:'-5rem'}} className='d-flex justify-content-center'>
+                                        <Badge pill bg='danger' style={{ cursor: 'pointer', padding: '10px 15px' }}> Sign In </Badge>
+                                        </Col>
                                     </Row>
-                                    <Row style={{ margin: '0.5rem 0px', position:'relative', top:'12rem' }}>
+                                    <Row style={{ margin: '0.5rem 0px' }}>
+                                    {/* <Row style={{ margin: '0.5rem 0px', position:'relative', top:'12rem' }}> */}
                                         <Col className='d-flex align-items-center'>
                                             <Image fluid src='./7.png' style={{ borderRadius: '45%/25%' }} />
                                         </Col>
                                     </Row>
-                                    <Row style={{ margin: '0.5rem 0px', position:'relative', top:'14rem' }}>
+                                    <Row style={{ margin: '0.5rem 0px' }}>
+                                    {/* <Row style={{ margin: '0.5rem 0px', position:'relative', top:'14rem' }}> */}
                                         <Col className='d-flex align-items-center'>
                                             <Image fluid src='./8.png' style={{ borderRadius: '45%/25%' }} />
                                         </Col>
